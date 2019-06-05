@@ -1,6 +1,6 @@
 'use strict';
 
-const ECKey = require('../src/ec-key');
+const ECKey = require('../ec-key');
 const expect = require('chai').expect;
 const fs = require('fs');
 

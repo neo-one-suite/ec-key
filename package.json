@@ -1,8 +1,9 @@
 {
   "name": "ec-key",
   "description": "Wrapper around an Elliptic Curve private or public keys",
-  "version": "0.0.2",
-  "main": "src/ec-key.js",
+  "version": "0.0.3",
+  "main": "./ec-key.js",
+  "types": "./ec-key.d.ts",
 
   "author": "Pier Fumagalli <pier@relocately.com>",
   "homepage": "https://github.com/relocately/ec-key",
@@ -31,8 +32,5 @@
   },
   "dependencies": {
     "asn1.js": "^1.0.4"
-  },
-  "engines": {
-    "node": "~6.0."
   }
 }
